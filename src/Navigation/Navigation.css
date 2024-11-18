@@ -25,8 +25,7 @@
 }
 
 .navbar.scrolled {
-    border-bottom: 1px solid #10192A;
-    background-color: transparent;
+    background-color: #ffb606;
     font-weight: 700;
 }
 
@@ -51,7 +50,7 @@
 }
 
 .navbar.scrolled > .toggle-menu {
-    color: #10192A;
+    color: #fff;
 }
 
 @media screen and (max-width:896px) {

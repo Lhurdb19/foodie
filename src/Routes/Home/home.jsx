@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Home.css";
 import Reserve from "../Reserve/reserve";
+import Booktable from "../BookTable/booktable";
 
 function Home() {
   const [mexican, setMexican] = useState(true);
@@ -102,7 +103,9 @@ function Home() {
               tree waters brought. Divide after there. Was. Created god gathered
               don't you yielding herb you had. And isn't god.
             </p>
-            <a href="home">BOOK A TABLE</a>
+            <span>
+            <Booktable/>
+            </span>
           </div>
         </div>
 

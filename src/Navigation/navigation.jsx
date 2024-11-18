@@ -28,23 +28,23 @@ function Navigation() {
   return (
     <div className={`navbar ${scrolling ? 'scrolled' : '' }`}>
 
-        <Link to={'home'} style={{color: scrolling ? '#10192a' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={ ()=> setIsMobile(false)}>FoodFun</Link>
+        <Link to={'home'} style={{color: scrolling ? '#fff' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={ ()=> setIsMobile(false)}>FoodFun</Link>
         <div className={`nav-link ${isMobile ? 'mobile active' : ''}`} onClick={ ()=> setIsMobile(false)}>
             
             <li>
-                <Link to='about' style={ {color: scrolling ? '#10192a' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={()=> setIsMobile(false)}>About</Link>
+                <Link to='about' style={ {color: scrolling ? '#fff' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={()=> setIsMobile(false)}>About</Link>
             </li>
 
             <li>
-                <Link to='blog' style={{color: scrolling ? '#10192a' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={()=> setIsMobile(false)}>Blogs</Link>
+                <Link to='blog' style={{color: scrolling ? '#fff' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={()=> setIsMobile(false)}>Blogs</Link>
             </li>
 
             <li>
-                <Link to='menu' style={{color: scrolling ? '#10192a' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={()=> setIsMobile(false)}>Menu</Link>
+                <Link to='menu' style={{color: scrolling ? '#fff' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={()=> setIsMobile(false)}>Menu</Link>
             </li>
 
             <li>
-                <Link to='contact' style={{color: scrolling ? '#10192a' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={()=> setIsMobile(false)}>Contact</Link>
+                <Link to='contact' style={{color: scrolling ? '#fff' : 'white'}} smooth={true} offset={-70} duration={500} spy={true} onClick={()=> setIsMobile(false)}>Contact</Link>
             </li>
             
             <li>

@@ -185,8 +185,9 @@ span > form > .btn > button:nth-child(2):hover {
 
 .view-btn > button {
     background-color: #ffb606;
-    color: #10192A;
+    color: #fff;
     padding:10px 20px;
+    border-radius: 5px;
     border: 1px solid #ffb606;
     font-weight: 550;
 }

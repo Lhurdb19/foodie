@@ -102,7 +102,7 @@
     line-height: 1rem;
 }
 
-.welcome-img > .welcome > a {
+/* .welcome-img > .welcome > a {
     width: 130px;
     height: 40px;
     display: flex;
@@ -118,7 +118,12 @@
 .welcome-img > .welcome > a:hover {
     border: 1px solid #ffb606;
     background-color: #fff;
+} */
+
+.welcome > span {
+    margin-top: 150px;
 }
+
 
 @media screen and (max-width:896px) {   
     .home-container > .welcome-img {

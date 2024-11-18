@@ -172,10 +172,11 @@
 
 .view-button > button {
     background-color: #ffb606;
-    color: #10192A;
+    color: #fff;
     padding:10px 20px;
     border: 1px solid #ffb606;
     font-weight: 550;
+    border-radius: 5px;
 }
 
 .view-button > button:hover {
