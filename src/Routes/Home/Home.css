@@ -1,0 +1,414 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: white;
+}
+
+.home-container > .text-img {
+    width: 100%;
+    height: 600px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://res.cloudinary.com/the-infatuation/image/upload/f_auto/q_auto/v1712237529/images/Lahpet_West_End_Interiors_Credit__Kathrin_Werner_7_zq8kif.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-img > p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #10192A;
+}
+.text-img > h2 {
+    font-size: 60px;
+    color: #10192A;
+    transform: skewX(-10deg);
+}
+@media screen and (max-width:896px) {
+    .home-container {
+        width: 100%;
+        gap: 20px;
+    }
+    .home-container > .text-img {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+
+    }
+
+    .text-img > p {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+    }
+    .text-img > h2 {
+        font-size: 25px;
+        text-align: center;
+        color: white;
+    }
+}
+
+.home-container > .welcome-img {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 100px;
+    background-color: transparent;
+}
+
+.welcome-img > img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.welcome-img > .welcome {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+
+.welcome-img > .welcome > h4:first-child {
+    margin-bottom: -20px;
+}
+.welcome-img > .welcome > .head-text > h4 {
+    font-size: 25px;
+}
+.welcome-img > .welcome > p {
+    font-size: 13px;
+    line-height: 1rem;
+}
+
+.welcome-img > .welcome > a {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #ffb606;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.welcome-img > .welcome > a:hover {
+    border: 1px solid #ffb606;
+    background-color: #fff;
+}
+
+@media screen and (max-width:896px) {   
+    .home-container > .welcome-img {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 10px 0px;
+    }
+    .welcome-img > img {
+        width: 100%;
+        height: 300px;
+    }
+    .welcome-img > .welcome {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+    .welcome-img > .welcome > .head-text {
+        display: flex;
+        gap: 10px;
+    }
+    .welcome-img > .welcome > .head-text > h4 {
+        font-size: 17px;
+    }
+    .welcome-img > .welcome > p {
+        font-size: 12px;
+    }
+    
+    .welcome-img > .welcome > a {
+        width: 100px;
+        height: 30px;
+        padding: 5px;
+        color: #000;
+        font-size: 11px;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+
+  }
+
+.delicious-modal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.delicious-modal > .delicious {
+font-size: 25px;
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+} 
+
+.delicious-modal > .delicious > h4 {
+font-size: 25px;
+display: flex;
+
+} 
+@media screen and (max-width:896px) {
+    .delicious-modal {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .delicious-modal > .delicious {
+        font-size: 12px;
+        display: flex;
+    } 
+        
+        .delicious-modal > .delicious > h4 {
+        font-size: 17px;
+    }
+}
+
+.delicious-modal > .modal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding-top: 20px;
+    
+}
+
+@media screen and (max-width:896px) {
+    .delicious-modal > .modal {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.delicious-modal > .modal > .switch {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.delicious-modal > .modal > .switch > button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #7d7979;
+    color: #7d7979;
+}
+@media screen and (max-width:896px) {
+    
+.delicious-modal > .modal > .switch {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 20%;
+    z-index: 100;
+    gap: 10px;
+}
+
+.delicious-modal > .modal > .switch > button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #7d7979;
+    color: #7d7979;
+}
+}
+
+.delicious-modal > .modal > .switch > button:focus {
+    background-color: #ffb606;
+    border: none;
+    color: #fff;
+}
+.delicious-modal > .modal > .switch > button:hover {
+    border: 1px solid #ffb606;
+    color: #000;
+}   
+
+.delicious-modal > .modal > .switch-info {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.info {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #F9F9FF;
+    overflow: hidden;
+}
+@media screen and (max-width:896px) {
+    .delicious-modal > .modal > .switch-info {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .info {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+    }
+}
+
+.info:hover {
+    background-color: #ffb606;
+}
+
+.info:hover > img {
+    scale: 1.06;
+    transition: all 0.3s ease-in-out;
+}
+
+.info > img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.info > .text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.info > .text > span {
+    color: #ffb606;
+}
+.info:hover > .text > span {
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.switch-info > .info > p {
+    padding: 0px 20px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:896px) {
+    .info > img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .info > .text {
+        width: 100%;
+        display: flex;
+    }
+    .info > .text > h4 {
+        font-size: 14px;
+    }
+    
+    .switch-info > .info > p {
+        padding: 0px 20px;
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+}
+
+
+.natural {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1625604087024-7fb428fc4626?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGFyayUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 40px;
+}
+
+.natural > h3 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 800;
+}
+.natural > p {
+    font-size: 19px;
+    color: #fff;
+    transform: skewX(-10deg);
+    font-weight: 600;
+}
+
+@media screen and (max-width:896px) {
+.natural {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    }
+    
+    .natural > h3 {
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+    }
+    .natural > p {
+        font-size: 13px;
+        transform: skewX(-10deg);
+        text-align: center;
+    }
+}

@@ -1,0 +1,319 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #282669;
+}
+
+@media screen and (max-width:896px) {
+    .footer-container {
+        width: 100%;
+    }
+}
+
+.footer-container > .footer-card {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 100px;
+}
+@media screen and (max-width:896px) {
+    .footer-container > .footer-card {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 10px;
+    }
+}
+
+.footer-card > .logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-card > .logo > a {
+    display: flex;
+    text-decoration: none;
+    gap: 5px;
+}
+.footer-card > .logo > a > h1:nth-child(1) {
+    color: white;
+    font-size: 17px;
+}
+.footer-card > .logo > a > h1:nth-child(2) {
+    color: #ffb606;
+    font-size: 17px;
+}
+
+.footer-card > .logo > p {
+    color: #c4bebeda;
+    font-size: 12px;
+}
+@media screen and (max-width:896px) {
+    .footer-card > .logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-card > .logo > a > h1:nth-child(1) {
+        color: white;
+        font-size: 20px;
+    }
+    .footer-card > .logo > a > h1:nth-child(2) {
+        color: #ffb606;
+        font-size: 20px;
+    }
+    
+    .footer-card > .logo > p {
+        color: #c4bebeda;
+        font-size: 15px;
+    }
+}
+
+
+.footer-card > .address {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-card > .address > h1 {
+    font-size: 17px;
+    color: #ffb606;
+}
+
+.footer-card > .address > span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-card > .address > span > .icons {
+    font-size: 13px;
+    color: #c4bebeda;
+}
+.footer-card > .address > span > h2 {
+    font-size: 12px;
+    color: #c4bebeda;
+}
+.footer-card > .address > span > a {
+    font-size: 12px;
+    color: #c4bebeda;
+    text-decoration: none;
+}
+@media screen and (max-width:896px) {
+    .footer-card > .address {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .footer-card > .address > h1 {
+        font-size: 20px;
+        color: #ffb606;
+    }
+    
+    .footer-card > .address > span {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .footer-card > .address > span > .icons {
+        font-size: 15px;
+        color: #c4bebeda;
+    }
+    .footer-card > .address > span > h2 {
+        font-size: 15px;
+        color: #c4bebeda;
+    }
+    .footer-card > .address > span > a {
+        font-size: 15px;
+        color: #c4bebeda;
+        text-decoration: none;
+    }
+}
+
+
+.footer-card > .opening {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.opening > h1 {
+    font-size: 17px;
+    color: #ffb606;
+}
+
+.footer-card > .opening > span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-card > .opening > span > p {
+    font-size: 12px;
+    color: #c4bebeda;
+}
+@media screen and (max-width:896px) {
+    .footer-card > .opening {
+        width: 100%;
+    }
+    
+    .opening > h1 {
+        font-size: 20px;
+        color: #ffb606;
+    }
+    
+    .footer-card > .opening > span {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .footer-card > .opening > span > p {
+        font-size: 15px;
+        color: #c4bebeda;
+    }
+}
+
+.footer-container > footer {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0D0D27;
+    color: white;
+    padding: 30px 50px;
+}
+footer > .foot {
+    display: flex;
+    gap: 5px;
+}
+footer > .foot > p:nth-child(1) {
+    height: 13px;
+    border-right: 1px solid #fff;
+    padding: 0 5px;
+    font-size: 12px;
+    
+}
+
+footer > .foot > p {
+    font-size: 13px;
+}
+
+footer > .foot > p > a {
+    text-decoration: none;
+    color: lightgreen;
+    font-size: 13px;
+    padding-left: 2px;
+}
+footer > .foot > p > a:hover {
+    color: green;
+}
+
+footer > .text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+footer > .text > h2 {
+    font-size: 14px;
+}
+
+footer > .text > a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 5px;
+}
+
+footer > .text > a:hover {
+    color: #ffb606;
+}
+
+@media screen and (max-width:896px) {
+    .footer-container > footer {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+    footer > .foot {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    footer > .foot > p:nth-child(1) {
+        height: 10px;
+        border-right: none;
+        padding:0px ;
+        font-size: 11px;
+        
+    }
+    
+    footer > .foot > p {
+        font-size: 11px;
+    }
+    
+    footer > .foot > p > a {
+        text-decoration: none;
+        color: lightgreen;
+        font-size: 11px;
+        padding-left: 2px;
+    }
+
+    footer > .text > h2 {
+        font-size: 13px;
+    }
+    
+    footer > .text > a {
+        font-size: 13px;
+    }
+}

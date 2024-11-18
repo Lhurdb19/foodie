@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/src/Assets/static/Montserrat-Light.ttf);
+}
+
+
+
+

@@ -1,0 +1,199 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.book-table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (max-width:896px) {
+    .book-table {
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+.overlay-book {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 101;
+    background-color: rgba(32,32,32,0.3);
+}
+
+.book-card {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (max-width:896px) {
+    .overlay-book {
+        width: 230px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+     }
+    
+    .book-card {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    } 
+}
+
+.overlay-book > .book-card > span {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 70px;
+}
+@media screen and (max-width:896px) {
+    .overlay-book > .book-card > span {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.book-card > span > form {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.book-card > span > form > input {
+    width: 300px;
+    height: 35px;
+    display: flex;
+    border: 1px solid #7d7979;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    outline: none;
+}
+.book-card > span > form > textarea {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    border: 1px solid #7d7979;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.book-card > span > form > .btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px; 
+}
+
+.book-card > span > form > .btn > button {
+    width: 100px;
+    border: none;
+    background-color: #ffb606;
+    padding: 6px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+@media screen and (max-width:896px) {
+    .book-card > span > form {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .book-card > span > form > input {
+        width: 100%;
+    }
+    .book-card > span > form > textarea {
+        width: 100%;
+    }
+    
+    .book-card > span > form > .btn {
+       gap: 20px; 
+    }
+    
+    .book-card > span > form > .btn > button {
+        width: 100%;
+    }
+}
+
+.book-card > span > form > .btn > button:nth-child(2) {
+    background: #FFF;  
+    border: 1px solid #ffb606;
+    color: #ffb606;
+}
+
+.book-card > span > form > .btn > button:nth-child(1):hover {
+    background: #FFF;  
+    border: 1px solid #ffb606;
+    color: #ffb606;
+} 
+
+.book-card > span > form > .btn > button:nth-child(2):hover {
+    background-color: #ffb606;
+    color: #fff;
+}
+
+.view-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.view-button > button {
+    background-color: #ffb606;
+    color: #10192A;
+    padding:10px 20px;
+    border: 1px solid #ffb606;
+    font-weight: 550;
+}
+
+.view-button > button:hover {
+    background-color: transparent;
+    border: 1px solid #ffb606;
+    color: #ffb606;
+}
+
+@media screen and (max-width:896px) {
+    .view-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -150px;
+    }
+    
+    .view-button > button {
+        padding:10px 10px;
+    }
+}
