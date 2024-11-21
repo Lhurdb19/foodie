@@ -50,7 +50,7 @@ function About() {
                   </a>
                 </div>
                 <img data-aos="zoom-in-down"
-                  src="https://norecipes.com/wp-content/uploads/2023/09/spicy-garlic-green-beans-002.jpg"
+                  src="https://fortheloveofcooking-net.exactdn.com/wp-content/uploads/2013/07/DSC_7193.1.jpg?strip=all&lossy=1&quality=90&ssl=1"
                   alt=""
                 />
               </div>
