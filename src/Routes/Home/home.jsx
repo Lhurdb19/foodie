@@ -70,7 +70,7 @@ function Home() {
     <div id="home">
       <div className="home-container">
         <div className="text-img">
-          <p>THE MOST INTERESTED FOOD IN THE WORLD</p>
+          <p>LOOKING FOR FINE DINING?</p>
             <h2>
               Discover the <span style={{ color: "#FFB606" }}>
                 flavors

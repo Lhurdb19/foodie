@@ -60,8 +60,9 @@
         padding: 10px;
     }
 
-    .navbar.scrolled > a {
-        transition: all 0.5s ease-in-out;
+    .navbar > a {
+        font-size: 25px;
+        font-weight: 600;
     }
 
     .navbar > .nav-link {
@@ -71,12 +72,12 @@
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
-        top: 70px;
+        top: 60px;
         left: 0px;
         transform: translateX(-100%);
         padding: 10px;
         transition: 0.3s ease-in-out;
-        background-color: black;
+        background-color: #282669;
         position: absolute;
         z-index: 100;
         gap: 10px;
@@ -95,6 +96,7 @@
     .navbar > .toggle-menu {
         display: block;
         color: white;
+        font-size: 25px;
     }
 
 }
