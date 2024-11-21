@@ -41,7 +41,7 @@
 }
 @media screen and (max-width:896px) {
     .overlay-book {
-        width: 230px;
+        width: 100%;
         min-height: 100vh;
         display: flex;
         flex-direction: column;

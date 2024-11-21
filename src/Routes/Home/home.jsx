@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import Reserve from "../Reserve/reserve";
 import Booktable from "../BookTable/booktable";
+import Login from "../../Auth/login";
 
 function Home() {
   const [mexican, setMexican] = useState(true);
@@ -227,7 +228,6 @@ function Home() {
         <div className="natural">
             <h3>Natural ingredients and testy food</h3>
             <p>Some trendy and popular courses offerd</p>
-          
           <Reserve />
         </div>
       </div>

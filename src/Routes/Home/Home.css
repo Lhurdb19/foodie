@@ -31,11 +31,11 @@
 .text-img > p {
     font-size: 25px;
     font-weight: 600;
-    color: #10192A;
+    color: #fff;
 }
 .text-img > h2 {
     font-size: 60px;
-    color: #10192A;
+    color: #fff;
     transform: skewX(-10deg);
 }
 @media screen and (max-width:896px) {

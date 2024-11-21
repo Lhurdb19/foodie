@@ -49,7 +49,7 @@ function About() {
                     <FaLongArrowAltRight className="icon" />
                   </a>
                 </div>
-                <img data-aos="zoom-in"
+                <img data-aos="zoom-in-down"
                   src="https://norecipes.com/wp-content/uploads/2023/09/spicy-garlic-green-beans-002.jpg"
                   alt=""
                 />
@@ -61,7 +61,7 @@ function About() {
 
           <div className="lemon-con">
             <div className="lemon">
-              <img data-aos="zoom-out-up" src="https://onlineculinaryschool.net/wp-content/uploads/2018/11/online_culinary_school_lemon_rosemary_roasted_chicken-1.jpg" alt="" />
+              <img data-aos="zoom-in-up" src="https://onlineculinaryschool.net/wp-content/uploads/2018/11/online_culinary_school_lemon_rosemary_roasted_chicken-1.jpg" alt="" />
               <div className="span-con">
                 <div className="one-border">
                   <h1>02.</h1>
