@@ -128,7 +128,7 @@ function Home() {
             </div>
 
             <div className="switch-info">
-              {mexican && (
+              {mexican &&  [ 
                 <div className="info">
                   <img
                     src="https://images.getrecipekit.com/20220821101910-air-fryer-southwest-egg-rolls-800x1200-08b1da0c-d3df-4ffa-91d7-ba3ea58ae825.jpg?aspect_ratio=1:1&quality=90&"
@@ -142,7 +142,7 @@ function Home() {
                     fruitful.
                   </p>
                 </div>
-              )}
+              ]}
               {burger && (
                 <div className="info">
                   <img
